@@ -21,7 +21,7 @@ http:
 cron:
   script:
     - name: smzdm
-      cron: '*30 1 * * *' # at every 5th minute
+      cron: '30 1 * * *' # at every 5th minute
       argument: '{ "smzdm_cookie_id": true }' # optional
       timeout: 10 # optional
 
